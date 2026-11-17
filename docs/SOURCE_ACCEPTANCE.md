@@ -24,3 +24,5 @@ This report covers static source preservation, not compilation, deployment or fu
 ## Post-publication verification
 
 The final delivery receipt records the actual main commit SHA, a new empty-directory clone, clean Git status, full source/index hash comparison and fresh Private metadata readback. This committed pre-publication report deliberately does not predeclare those future events. Reproduce source verification after cloning with `python3 tools/verify_source_handoff.py`; on Windows use Git checkout with symlink support and `core.autocrlf=false`, `core.eol=lf`.
+
+The first GitHub clone exposed a verifier portability defect: Git for Windows represents `../AGENTS.md` as `..\AGENTS.md` in the materialized symbolic link. The link still resolves to the same internal file, and the Git blob retains the original POSIX target bytes. The verifier now normalizes Windows link separators before checking the working-tree target; the independent Git blob comparison remains byte-exact. No source bytes, link targets or source manifest entries were changed by this verifier correction. A new final-version clone is required after this correction.

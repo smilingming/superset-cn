@@ -40,7 +40,15 @@ def main() -> int:
         path = root / relative
         try:
             link = path.is_symlink()
-            data = os.readlink(path).encode("utf-8") if link else path.read_bytes()
+            if link:
+                target = os.readlink(path)
+                # Git for Windows materializes POSIX target separators as backslashes.
+                # Canonicalize only this OS representation; Git blob checks stay exact.
+                if os.name == "nt":
+                    target = target.replace("\\", "/")
+                data = target.encode("utf-8")
+            else:
+                data = path.read_bytes()
             valid = (
                 hashlib.sha256(data).hexdigest() == item["sha256"]
                 and len(data) == item["size"]
