@@ -66,7 +66,7 @@
     "@storybook/core": "^8.6.18",
     "@storybook/core-events": "^8.6.18",
     "@storybook/csf": "^0.1.13",
-    "@storybook/docs-tools": "^8.6.18",
+    "@storybook/docs-tools": "^8.6.19",
     "@storybook/preview-api": "^8.6.18",
     "@storybook/theming": "^8.6.15",
     "@superset-ui/core": "^0.20.4",

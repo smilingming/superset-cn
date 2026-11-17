@@ -3813,10 +3813,10 @@
   dependencies:
     type-fest "^2.19.0"
 
-"@storybook/docs-tools@^8.6.18":
-  version "8.6.18"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.6.18.tgz#ba79b08a41131f97d9c6970c48651552763acbcf"
-  integrity sha512-43ggjDA1ZV0FWjMlNBkKC1VWQ6zDQmSj0WWWqivGQdnBt4dufYQFXnbQeFr9Og+3OjZYmr3KTrLCjDiyCGOgjg==
+"@storybook/docs-tools@^8.6.19":
+  version "8.6.19"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.6.19.tgz#04aea031d302ca12e3d8679651bb49faa9b1be38"
+  integrity sha512-e2+S9DeZWtlQ1MyGwMBt4S/6foMEgtCWf0u76MdCO8US1db2LX9ay7rViI1pCoIN32enm5YVE7SlX8u61+vOAQ==
 
 "@storybook/icons@^1.2.12":
   version "1.4.0"
