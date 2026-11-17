@@ -1,0 +1,106 @@
+{
+  "po_total": 4926,
+  "nonempty": 4925,
+  "empty": [
+    "Powered by Apache Superset"
+  ],
+  "fuzzy": 0,
+  "obsolete": 0,
+  "plural": 39,
+  "json_entries": 4926,
+  "json_mismatches": [],
+  "json_extra_keys": [],
+  "mo_entries": 4925,
+  "mo_mismatches": [],
+  "babel_format_validation": [
+    {
+      "key": "% calculation",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "% of parent",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "% of total",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s day ago', '%s days ago')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s metric', '%s metrics')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s min ago', '%s min ago')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s out of %s column', '%s out of %s columns')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s out of %s metric', '%s out of %s metrics')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s s ago', '%s s ago')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('%s second', '%s seconds')",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('Added 1 new column to the virtual dataset', 'Added %s new columns to the virtual dataset')",
+      "errors": [
+        "the format strings are of different kinds"
+      ]
+    },
+    {
+      "key": "Ends with (ILIKE %x)",
+      "errors": [
+        "placeholders are incompatible"
+      ]
+    },
+    {
+      "key": "('Modified 1 column in the virtual dataset', 'Modified %s columns in the virtual dataset')",
+      "errors": [
+        "the format strings are of different kinds"
+      ]
+    },
+    {
+      "key": "('Removed 1 column from the virtual dataset', 'Removed %s columns from the virtual dataset')",
+      "errors": [
+        "the format strings are of different kinds"
+      ]
+    }
+  ],
+  "hashes": {
+    "messages.po": "595bc51868b29907da2e923115a465f0415224816406aa48e96205698b7c6994",
+    "messages.mo": "1fff34fd5a0ae6fa1aa0dc7e9e6fd9fafc53787ab4d122d7814d25616960381e",
+    "messages.json": "a76905d44842850e942cbf690a11abb496b76a3dee041a4f7d75ecfab205fb4a"
+  }
+}

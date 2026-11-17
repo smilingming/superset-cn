@@ -1,0 +1,139 @@
+CORE (detached HEAD)
+ M superset-frontend/package-lock.json
+ M superset-frontend/package.json
+ M superset-frontend/packages/superset-ui-chart-controls/src/constants.ts
+ M superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx
+ M superset-frontend/packages/superset-ui-chart-controls/src/utils/D3Formatting.ts
+ M superset-frontend/packages/superset-ui-core/src/number-format/NumberFormats.ts
+ M superset-frontend/packages/superset-ui-core/src/time-format/D3FormatConfig.ts
+ M superset-frontend/packages/superset-ui-core/src/time-format/TimeFormatsForGranularity.ts
+ M superset-frontend/packages/superset-ui-core/src/time-format/factories/createMultiFormatter.ts
+ M superset-frontend/packages/superset-ui-core/src/time-format/formatters/smartDate.ts
+ M superset-frontend/packages/superset-ui-core/src/time-format/formatters/smartDateVerbose.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/index.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberViz.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/index.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/transformProps.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Histogram/transformProps.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/Pie/transformProps.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/constants.ts
+ M superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx
+ M superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx
+ M superset-frontend/plugins/plugin-chart-table/src/DataTable/DataTable.tsx
+ M superset-frontend/src/explore/components/DataTablesPane/components/useResultsPane.tsx
+ M superset-frontend/src/explore/components/controls/MatrixifyDimensionControl.tsx
+ M superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.tsx
+ M superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx
+ M superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/DashboardsSubMenu.tsx
+ M superset-frontend/src/explore/controlPanels/sections.tsx
+ M superset-frontend/src/features/home/Menu.tsx
+ M superset-frontend/src/features/home/RightMenu.tsx
+ M superset-frontend/src/pages/Login/index.tsx
+ M superset-frontend/src/setup/setupFormatters.ts
+ M superset-frontend/src/visualizations/presets/MainPreset.ts
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/package.json
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/AdvancedPivotTableChart.tsx
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/buildQuery.ts
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/controlPanel.tsx
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/index.ts
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/transformProps.ts
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/src/types.ts
+?? superset-frontend/plugins/plugin-chart-advanced-pivot-table/tsconfig.json
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/package.json
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/CustomHeader.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/CustomPopover.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/Filter.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/KebabMenu.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/Pagination.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/SearchSelectDropdown.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/components/TimeComparisonVisibility.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTable/index.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/AgGridTableChart.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/buildQuery.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/consts.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/controlPanel.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table-dark.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table2-dark.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table2.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table3-dark.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/Table3.jpg
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/thumbnail-dark.png
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/thumbnail.png
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/images/thumbnailLarge.png
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/index.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/renderers/NumericCellRenderer.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/renderers/TextCellRenderer.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/stateConversion.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/stories/AgGridTable.stories.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/stories/data.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/styles/index.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/transformProps.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/types.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/DateWithFormatter.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/agGridFilterConverter.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/dateFilterComparator.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/extent.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/externalAPIs.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/filterStateManager.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/filterValueGetter.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/formatValue.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getAggFunc.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getCellClass.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getCellStyle.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getCrossFilterDataMask.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getInitialFilterModel.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/getInitialSortState.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/htmlTextFilterValueGetter.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/htmlTextFilterValueGetter.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/isEqualColumns.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/reconcileColumnState.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/reconcileColumnState.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/useColDefs.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/src/utils/useTableTheme.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/AgGridTableChart.test.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/buildQuery.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/controlPanel.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/controlPanel.test.tsx
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/memoization.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/stateConversion.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/utils/agGridFilterConverter.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/utils/dateFilterComparator.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/utils/filterStateManager.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/utils/getInitialFilterModel.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/test/utils/useColDefs.test.ts
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/tsconfig.json
+?? superset-frontend/plugins/plugin-chart-enhanced-matrix-table/types/external.d.ts
+
+PLATFORM (master)
+ M core/superset
+ M overlay/config/superset_config_docker.py
+?? logs/enhanced_matrix_20260703_224446/p0_scan.log
+?? logs/enhanced_matrix_20260703_224853/v01_build.log
+?? logs/enhanced_matrix_20260703_225549/rebuild.log
+?? logs/enhanced_matrix_20260703_225855/build_no_cache.log
+?? logs/l1_login_source_zh_build_20260703_002145.log
+?? logs/l1_units_and_demo_build_20260703_003845.log
+?? logs/l1c_build_menu_logo_20260702_235513.log
+?? logs/l1c_build_superset_20260702_233207.log
+?? logs/l2_chart_common_zh_build_20260703_020244.log
+?? logs/l2_chart_zh_build_20260703_012545.log
+?? logs/l2_cleanup_targeted_build_20260703_014428.log
+?? logs/l2_date_format_zh_build_20260703_015442.log
+?? logs/l2_unit_rollback_build_20260703_031833.log
+?? logs/load_examples_20260703_005548.log
+?? logs/load_examples_20260703_010127.log
+?? logs/unit_rollback_build_20260703_092657.log
+?? logs/unit_rollback_build_20260703_100349.log

@@ -1,0 +1,20 @@
+{
+  "name": "@superset-ui/plugin-chart-advanced-pivot-table",
+  "version": "0.0.0",
+  "description": "高级数据透视表 based on AntV S2",
+  "sideEffects": true,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@antv/s2": "^2.7.2",
+    "@antv/s2-react": "^2.3.1",
+    "@superset-ui/chart-controls": "file:../../packages/superset-ui-chart-controls",
+    "@superset-ui/core": "file:../../packages/superset-ui-core"
+  },
+  "peerDependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "excluded": [
+    {
+      "scope": "core",
+      "path": ".git",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/legacy-plugin-chart-calendar/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-echarts/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/legacy-plugin-chart-horizon/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-enhanced-matrix-table/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/legacy-plugin-chart-world-map/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-ag-grid-table/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/preset-chart-deckgl/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-handlebars/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-table/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/legacy-plugin-chart-country-map/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/legacy-plugin-chart-chord/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/plugins/plugin-chart-word-cloud/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/packages/superset-ui-core/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "superset-frontend/packages/generator-superset/node_modules",
+      "reason": "metadata/cache directory"
+    },
+    {
+      "scope": "core",
+      "path": "docker/pythonpath_dev/__pycache__",
+      "reason": "metadata/cache directory"
+    }
+  ],
+  "missing_ci_gitlinks": {
+    ".github/actions/cached-dependencies": {
+      "mode": "160000",
+      "oid": "064315d61e424e60d440fa77e8afda19cdd7211a"
+    },
+    ".github/actions/chart-releaser-action": {
+      "mode": "160000",
+      "oid": "a917fd15b20e8b64b94d9158ad54cd6345335584"
+    },
+    ".github/actions/chart-testing-action": {
+      "mode": "160000",
+      "oid": "afea100a513515fbd68b0e72a7bb0ae34cb62aec"
+    },
+    ".github/actions/comment-on-pr": {
+      "mode": "160000",
+      "oid": "85a56be792d927ac4bfa2f4326607d38e80e6e60"
+    },
+    ".github/actions/file-changes-action": {
+      "mode": "160000",
+      "oid": "a6ca26c14274c33b15e6499323aac178af06ad4b"
+    },
+    ".github/actions/github-action-push-to-another-repository": {
+      "mode": "160000",
+      "oid": "5c472514b353ad60c335a13db3fd5189e9e9db37"
+    },
+    ".github/actions/latest-tag": {
+      "mode": "160000",
+      "oid": "6d22a6738f5c33059e3a8c6ca5dcf8eaf8a14599"
+    },
+    ".github/actions/pr-lint-action": {
+      "mode": "160000",
+      "oid": "a168917ecac38f7b6f98401804e4e40f9f1bca8e"
+    }
+  },
+  "outside_scope": [
+    "platform/runtime",
+    "platform/logs",
+    "platform/backups",
+    "platform/releases",
+    "platform/compatibility-layer",
+    "platform/scripts (reference only)"
+  ]
+}
