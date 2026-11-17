@@ -175,7 +175,7 @@ hive = [
 impala = ["impyla>0.16.2, <0.23"]
 kusto = ["sqlalchemy-kusto>=3.1.2, <4"]
 kylin = ["kylinpy>=2.8.1, <2.9"]
-mssql = ["pymssql>=2.3.13, <3"]
+mssql = ["pymssql>=2.4.6, <3"]
 # motherduck is an alias for duckdb - MotherDuck works via the duckdb driver
 motherduck = ["apache-superset[duckdb]"]
 mysql = ["mysqlclient>=2.1.0, <3"]
